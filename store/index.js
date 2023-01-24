@@ -111,7 +111,7 @@ const store = createStore({
         //     return state.stockPortfolios.find(stockPortfolio => stockPortfolio.userId === id);
         // },
         isAdmin(state){
-            return state.currentUser.id === 5; // TODO: id=5 только у меня (временное решение, fix that)
+            return state.currentUser.id === 6; // TODO: id=5 только у меня (временное решение, fix that)
         }
     },
     plugins: [
